@@ -1,0 +1,44 @@
+/*background color*/
+body{
+	background-color: #E57678;
+}
+h2{
+	font font-family: inherit;
+	font-size: 30px;
+	text-align: center;
+}
+/*text color*/
+p1{
+	border-style: solid;
+	border-color: red;
+	margin: 5px;
+	font-variant: normal;
+}
+/*list style*/
+ul.b{
+	list-style: circle;
+}
+
+ol.a{
+	list-style-type: upper-alpha;
+	font font-family: monospace;
+	font-weight: inherit;
+	color:red;
+}
+
+/*table*/
+table,td,th{
+	border: 1px solid;
+	text-align: center;
+}
+table{
+	width: 100;
+}
+table{
+	tr:nth-child(even) background-color: #f2f2f2;
+}
+
+/*visited link*/
+a:visited{
+	color:red;
+}
